@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: djangoapp-sunoh
     routes:
-      - route: $HOST.$DOMAIN
+      - route: angryalligatorsun.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: djangoapp-nginx-sunoh
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: angryalligatorsun.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
